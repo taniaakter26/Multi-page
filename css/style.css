@@ -1,0 +1,62 @@
+body{
+	margin: 0; 
+	font-family: 'open sans' sans-serif;
+}
+p{
+	margin: 0;
+}
+.heroBanner{
+	padding:200px 0;
+	background-color: pink;
+	background: url(images/5.jpg) no-repeat;
+    background-size: cover;
+	background-position-y: center;
+	background-blend-mode: multiply; 
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.heroBanner h1{
+	text-align: center;
+	font-size: 90px;
+	background: #fb5c03;
+background: linear-gradient(322deg, rgba(22,39,55,1) 0%, rgba(41,176,147,1) 100%);
+-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 800;
+	line-height: 100px;
+
+}
+.btn{
+	background: linear-gradient;
+	color: white;
+	font-size: 15px;
+	padding: 8px 30px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.productSection_02{
+	background-image: url();
+	padding: 350px 0;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: orange;
+	background-blend-mode: multiply;
+}
+.category{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+	padding: 0 10%;
+}
+.category a {
+	background: linear-gradient;
+	color: white;
+	text-decoration: none;
+	padding: 7px 40px;
+	border-radius: 50px;
+	font-size: 30px;
+}
